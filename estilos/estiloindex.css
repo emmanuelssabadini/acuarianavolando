@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.encabezado nav li{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.frase_imagen{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.frase_imagen div{
+    width: 70%;    
+}
+
+.frase_imagen h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: lightpink;
+}
+
+
+.servicios{
+    display: flex;
+}
+
+.pie_de_pagina{
+    display: flex;
+}
