@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos/estiloindex.css">
 </head>
+
 <body>
-    
+    <header class="encabezado">
+        <div>
+            <img src="./imagenes/logo MG(1).png" alt="logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="miperfil.html"> Mi perfil </a></li>
+                <li> <a href="servicios.html"> Servicios</a></li>
+                <li> <a href="contacto.html"> Contactanos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="container">
+        
+        <div class="input-group">
+            <span class="input-group-text">Nombre y apellido</span>
+            <input type="text" aria-label="First name" class="form-control">
+            <input type="text" aria-label="Last name" class="form-control">
+        </div>
+        <br>
+        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="Email" placeholder="name@example.com">
+        </div>
+        
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="Mensaje" rows="3"></textarea>
+        </div>
+
+        <button type="button" class="btn btn-danger">Danger</button>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
+
 </html>
